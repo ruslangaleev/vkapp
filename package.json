@@ -2,7 +2,6 @@
   "name": "vkapp",
   "version": "1.0.0",
   "description": "",
-  //"main": "index.js",
   "homepage": "https://ruslangaleev.github.io/vkapp/",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",

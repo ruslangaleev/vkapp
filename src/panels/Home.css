@@ -1,0 +1,4 @@
+.panel-options {
+    display: flex;
+    flex-direction: row;
+}

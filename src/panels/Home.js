@@ -4,7 +4,7 @@ import { Panel, ListItem, Button, Group, Div, Avatar, PanelHeader } from '@vkont
 
 const Home = props => (
 	<Panel id={props.id}>
-		<PanelHeader>Example</PanelHeader>
+		<PanelHeader>Бронирование</PanelHeader>
 		{props.fetchedUser &&
 		<Group title="User Data Fetched with VK Connect">
 			<ListItem
@@ -19,6 +19,9 @@ const Home = props => (
 			<Div>
 				<Button size="xl" level="2" onClick={props.go} data-to="persik">
 					Show me the Persik, please
+				</Button>
+				<Button size="xl" data-to="items">
+					Список
 				</Button>
 			</Div>
 		</Group>
