@@ -23,6 +23,10 @@ const Home = props => (
 				<Button size="xl" data-to="items">
 					Список
 				</Button>
+				<Button size="xl" data-to="items">
+					Фильм
+				</Button>
+				<a href="https://vk.com/video-50451618_456239046">link text</a>				
 			</Div>
 		</Group>
 	</Panel>
